@@ -1,4 +1,3 @@
-from tabulate import tabulate
-from dataclasses import dataclass
-from datetime import datetime
-from dateutil import relativedelta
+from plan import basic_plan, standard_plan, premium_plan
+
+print(basic_plan.plan_name)
